@@ -23,7 +23,7 @@ import org.springframework.context.annotation.DependsOn;
 @Configuration
 public class MessagingConfiguration {
 
-  static final String DEMO_EXCHANGE_NAME = "demo.direct";
+  static final String DEMO_EXCHANGE_NAME = "demo.topic";
   static final String DEMO_QUEUE_NAME = "demo.eai";
 
   @Bean
